@@ -8618,7 +8618,7 @@ inline void gcode_M109() {
         #if HOTENDS > 1
           lcd_status_printf_P(0, heating ? PSTR("E%i " MSG_HEATING) : PSTR("E%i " MSG_COOLING), target_extruder + 1);
         #else
-          lcd_setstatusPGM(heating ? PSTR("E " MSG_HEATING) : PSTR("E " MSG_COOLING));
+          lcd_setstatusPGM(heating ? PSTR("Filament " MSG_HEATING) : PSTR("Filament " MSG_COOLING));
         #endif
     #endif
   }
