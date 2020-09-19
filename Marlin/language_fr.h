@@ -301,7 +301,7 @@
 #define MSG_SHORT_HOUR                      _UxGT("h") // One character only
 #define MSG_SHORT_MINUTE                    _UxGT("m") // One character only
 
-#define MSG_HEATING                         _UxGT("En chauffe...")
+#define MSG_HEATING                         _UxGT("En chauffe12...")
 #define MSG_BED_HEATING                     _UxGT("Lit en chauffe...")
 #define MSG_DELTA_CALIBRATE                 _UxGT("Calibration Delta")
 #define MSG_DELTA_CALIBRATE_X               _UxGT("Calibrer X")
